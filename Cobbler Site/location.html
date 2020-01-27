@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Index</title>
+<!-- This loads Foundation CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css" rel="stylesheet" type="text/css">
+<link href="styles.css" rel="stylesheet" type="text/css">
+
+<!-- This loads jQuery JavaScript (this must be before the Foundation js below) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- This loads Foundation JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js"></script>
+
+<!-- Finally, this starts foundation for everything on the page -->
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(document).foundation();
+	});
+</script>
+</head>
+<body>
+	
+<div class="title-bar" data-responsive-toggle="example-animated-menu" data-hide-for="medium">
+  <button class="menu-icon" type="button" data-toggle="example-animated-menu"></button>
+  <div class="title-bar-title">Menu</div>
+</div>
+<div class="top-bar" id="example-animated-menu">
+  <div class="top-bar-left">
+    <ul class="dropdown menu" data-dropdown-menu>
+      <li class="menu-text">The Peach Cobbler Factory</li>
+      	  <li><a href="index.html">Home!</a></li>
+      <li><a href="cobblers.html">Cobblers!</a></li>
+      <li><a href="location.html">Where are we?</a></li>
+     <li><a href="about.html">About Us!</a></li>
+      <li><a href="contact.html">Contact Us!</a></li>
+    </ul>
+  </div>
+</div>
+	
+<h3>Where we are on the map!</h3>
+	
+<div class="grid-container hide-for-medium">
+  <div class="grid-x">
+    <div class="medium-12 cell small-12">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3223.0186815509187!2d-86.75038678452287!3d36.11740261353414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886465f114bea82d%3A0xb0f992524945d7d5!2s2604+Nolensville+Pike%2C+Nashville%2C+TN+37211!5e0!3m2!1sen!2sus!4v1551833931702" width="320" height="400" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+	
+<div class="grid-container hide-for-small-only">
+  <div class="grid-x">
+    <div class="medium-12 cell small-12">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3223.0186815509187!2d-86.75038678452287!3d36.11740261353414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886465f114bea82d%3A0xb0f992524945d7d5!2s2604+Nolensville+Pike%2C+Nashville%2C+TN+37211!5e0!3m2!1sen!2sus!4v1551833931702" width="1150" height="400" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>	
+	
+<h3> What We Look Like! </h3>
+	
+<div class="grid-container">
+  <div class="grid-x grid-padding-x grid-padding-y">
+    <div class="medium-6 cell"> <img src="images/truck2.jpg" alt=""/> </div>
+    <div class="medium-6 cell"> <img src="images/truck.png" alt="truck"/> </div>
+  </div>
+</div>
+	
+<h5>You can also find us at these locations: <br>
+  1101 Woodland St <br>
+  1825 Old Fort Pkwy  At Lowes <br>
+  5520 Nolensville Pike <br>
+  625 Main St <br>
+  12th Ave South</h5>
+<h5>Just look for the truck!</h5>
+	
+<div class="grid-container footer">
+  <div class="grid-x">
+    <div class="medium-12 cell text-center"> © The Peach Cobbler Factory 2019 <br> Call (615) 592-5170 </div>
+  </div>
+</div>
+	
+</body>
+</html>

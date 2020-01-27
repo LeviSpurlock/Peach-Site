@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Index</title>
+<!-- This loads Foundation CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css" rel="stylesheet" type="text/css">
+<link href="styles.css" rel="stylesheet" type="text/css">
+
+<!-- This loads jQuery JavaScript (this must be before the Foundation js below) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- This loads Foundation JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js"></script>
+
+<!-- Finally, this starts foundation for everything on the page -->
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(document).foundation();
+	});
+</script>
+</head>
+
+<body>
+<div class="title-bar" data-responsive-toggle="example-animated-menu" data-hide-for="medium">
+  <button class="menu-icon" type="button" data-toggle="example-animated-menu"></button>
+  <div class="title-bar-title"></div>
+</div>
+<div class="top-bar" id="example-animated-menu">
+  <div class="top-bar-left">
+    <ul class="dropdown menu" data-dropdown-menu>
+      <li class="menu-text">The Peach Cobbler Factory</li>
+      	  <li><a href="index.html">Home!</a></li>
+      <li><a href="cobblers.html">Cobblers!</a></li>
+      <li><a href="location.html">Where are we?</a></li>
+      <li><a href="about.html">About Us!</a></li>
+      <li><a href="contact.html">Contact Us!</a></li>
+    </ul>
+  </div>
+</div>
+
+	
+<h1>Menu</h1>
+<div class="grid-container food">
+<div class="grid-x grid-padding-x">
+  <div class= "medium-12 cell">
+  </div>
+  <div class="medium-12 cell"> <img src="images/cobbler1.jpeg" alt="cobbler"/>
+    <h5> Peach Cobbler Topped with Vanilla Ice Cream - $6</h5>
+  </div>
+  <div class="medium-12 cell"> <img src="images/cobbler2.jpg" alt="cobbler"/>
+    <h5> Raspberry Cobbler Topped with Vanilla Ice Cream - $7</h5>
+  </div>
+  <div class="medium-12 cell"> <img src="images/cobbler3.jpg" alt="cobbler"/>
+    <h5> Strawberry Cobbler Topped with Vanilla Ice Cream & Poptarts - $9</h5>
+  </div>
+  <div class="medium-12 cell"> <img src="images/cobbler4.jpg" alt="cobbler"/>
+    <h5> Mixed Berry Cobbler Topped with Vanilla Ice Cream - $9</h5>
+  </div>
+</div>
+</div>
+<div class="grid-container content2">
+  <div class="grid-x grid-padding-x">
+    <div class="medium-6 cell"> <img src="images/cobbler5.jpg" alt="cobbler"/> <h5>Blackberry & Raspberry Cobbler - $8</h5> </div>
+    <div class="medium-6 cell"> <img src="images/cobbler6.jpg" alt="cobbler"/> <h5>French Toast - $5</h5> </div>
+  </div>
+</div>
+<div class="grid-container content3">
+  <div class="grid-x grid-padding-x">
+    <div class="medium-6 cell"> <img src="images/cobbler7.png" alt="cobbler"/> <h5>Blueberry Cobbler - $7</h5> </div>
+    <div class="medium-6 cell"> <img src="images/cobbler8.png" alt="cobbler"/> <h5>Peaches & Cream Cobbler -$9</h5> </div>
+  </div>
+</div>
+<div class="grid-container footer">
+  <div class="grid-x">
+    <div class="medium-12 cell text-center"> © The Peach Cobbler Factory 2019 <br> Call (615) 592-5170 </div>
+  </div>
+</div>
+</body>
+</html>

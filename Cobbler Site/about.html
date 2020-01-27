@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Index</title>
+<!-- This loads Foundation CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css" rel="stylesheet" type="text/css">
+<link href="styles.css" rel="stylesheet" type="text/css">
+
+<!-- This loads jQuery JavaScript (this must be before the Foundation js below) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- This loads Foundation JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js"></script>
+
+<!-- Finally, this starts foundation for everything on the page -->
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(document).foundation();
+	});
+</script>
+</head>
+
+<body>
+<div class="title-bar" data-responsive-toggle="example-animated-menu" data-hide-for="medium">
+  <button class="menu-icon" type="button" data-toggle="example-animated-menu"></button>
+  <div class="title-bar-title">Menu</div>
+</div>
+<div class="top-bar" id="example-animated-menu">
+  <div class="top-bar-left">
+    <ul class="dropdown menu" data-dropdown-menu>
+      <li class="menu-text">The Peach Cobbler Factory</li>
+	  <li><a href="index.html">Home!</a></li>
+      <li><a href="cobblers.html">Cobblers!</a></li>
+      <li><a href="location.html">Where are we?</a></li>
+      <li><a href="about.html">About Us!</a></li>
+      <li><a href="contact.html">Contact Us!</a></li>
+    </ul>
+  </div>
+</div>
+
+<h1> About </h1>
+
+<div class="grid-container us">
+  <div class="grid-x">
+    <div class="medium-12 cell text-center"> <p>The Peach Cobbler Factory was started by a little couple who came to Nashville from New Orleans after the disaster of Hurricane Katrina. Tammy and Juan Edgerton began selling their delicious cobblers at the Farmers Market in 2013 before they finally decided to create the home base in at Woodbine.</p> </div>
+  </div>
+</div>		
+<div class="grid-container us">
+  <div class="grid-x">
+    <div class="medium-12 cell text-center"> <img src="images/edgerton.jpg" alt="Edgertons"/> </div>
+  </div>
+</div>
+<div class="grid-container us">
+  <div class="grid-x">
+    <div class="medium-12 cell text-center"> <p>They don't plan to stop there! The Edgerton's have big plans to expand the menu past just cobblers to create the full dining experience! Soon enough you will be able to experience everything the Peach Cobbler Factory has to offer.</p> </div>
+  </div>
+</div>	
+<div class="grid-container footer">
+  <div class="grid-x">
+    <div class="medium-12 cell text-center"> © The Peach Cobbler Factory 2019 <br>
+      Call (615) 592-5170 </div>
+  </div>
+</div>
+</body>
+</html>

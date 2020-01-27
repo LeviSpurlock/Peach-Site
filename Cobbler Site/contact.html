@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Index</title>
+<!-- This loads Foundation CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css" rel="stylesheet" type="text/css">
+<link href="styles.css" rel="stylesheet" type="text/css">
+
+<!-- This loads jQuery JavaScript (this must be before the Foundation js below) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- This loads Foundation JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js"></script>
+
+<!-- Finally, this starts foundation for everything on the page -->
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(document).foundation();
+	});
+</script>
+</head>
+
+<body>
+<div class="title-bar" data-responsive-toggle="example-animated-menu" data-hide-for="medium">
+  <button class="menu-icon" type="button" data-toggle="example-animated-menu"></button>
+  <div class="title-bar-title">Menu</div>
+</div>
+
+<div class="top-bar" id="example-animated-menu">
+  <div class="top-bar-left">
+    <ul class="dropdown menu" data-dropdown-menu>
+      <li class="menu-text">The Peach Cobbler Factory</li>
+      	  <li><a href="index.html">Home!</a></li>
+      <li><a href="cobblers.html">Cobblers!</a></li>
+      <li><a href="location.html">Where are we?</a></li>
+      <li><a href="about.html">About Us!</a></li>
+      <li><a href="contact.html">Contact Us!</a></li>
+    </ul>
+  </div>
+</div>
+
+<form class="callout text-center">
+  <h2>Sign-up for our Newsletter!</h2>
+  <div class="floated-label-wrapper">
+    <label for="full-name">Full name</label>
+    <input type="text" id="full-name" name="full name input" placeholder="Full name">
+  </div>
+  <div class="floated-label-wrapper">
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email input" placeholder="Email">
+  </div>
+  <div class="floated-label-wrapper">
+  </div>
+  <input class="button expanded" type="submit" value="Don't click this button.">
+</form>
+
+<h2> Follow us on Social Media! </h2>
+	
+<div class="grid-x">
+  <div class="medium-4 cell"><a href="https://www.facebook.com/cobblerfactory/"><img src="images/fbicon.png" alt="fb icon"/></a></div>
+  <div class="medium-4 cell"><a href="https://www.instagram.com/peachcobblerfactory/?utm_source=ig_embed"><img src="images/instaicon.png" alt="fb icon"/></a></div>
+  <div class="medium-4 cell"><a href="https://twitter.com/cobblerfactory?lang=en"><img src="images/twittericon.png" alt="fb icon"/></a></div>   
+</div>	
+	
+<h2>Be sure to check in to see where we are!</h2>
+	
+<div class="grid-container footer">
+  <div class="grid-x">
+    <div class="medium-12 cell text-center"> © The Peach Cobbler Factory 2019 <br> Call (615) 592-5170 </div>
+  </div>
+</div>		
+</body>
+</html>
